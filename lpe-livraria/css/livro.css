@@ -1,0 +1,121 @@
+body {
+    background-color: #E8E8E8;
+}
+h2 {
+    margin: auto;
+    text-align: center;
+    max-height: 100%;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo {
+    width: 80%;
+   
+    color: #FFFFFF;
+    padding: 21px;
+    margin: 0px auto;
+    background-color: #0077b3;
+    font-style: normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 10px 10px 0px 0px;
+}
+#geral {
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 19px;
+    
+}
+
+
+
+#selecao {
+    margin: 1.5% 0% 0% -2.2%;
+    padding: 20px;
+    height: 9px;
+    width: 900px;
+    background-color: #000000;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+#selecao button {
+    border-radius: 5px;
+    margin: -2% 0.9% 0% 0%;
+
+}
+
+table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+    /*background:#339999;*/
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
+label{
+    color: black;
+    font-style: "Lucida Console", Monaco, monospace;
+}
+
+
+.btn {
+    height: 40%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #99e600;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+input, option[type=text], select {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+
+}
+

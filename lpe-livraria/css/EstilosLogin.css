@@ -1,0 +1,67 @@
+*{
+
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    background: url(fundoLogin.jpg);#2b2b2a;
+    background-position: center;
+}
+
+form{
+background: #333333;
+width: 360px;
+border: 1px solid #4e4d4d;
+border-radius: 3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+box-shadow: 0 0 10px #000;
+margin: 100px auto;
+
+
+}
+
+form h1{
+ 
+text-align: center;
+color:#fff;
+font-weight: normal;
+font-size: 40pt;
+margin: 30px 0px;
+font-family: 'Pinyon Script', cursive;
+}
+
+form input{
+	max-width: 280px;
+width: 280px;
+height: 35px;
+padding: 0px 10px;
+color: #6d6d6d;
+text-align:center;
+}
+
+form button{
+width: 135px;
+margin: 20px 0px 30px 30px;
+height: 50px;
+background: #3c3c3c;
+background: -o-linear-gradient(top, #3c3c3c 0%, #2a2828 100%);
+border: 1px solid #232323;
+color: #fff;
+box-shadow: 0px 2px 0px #000;
+-moz-box-shadow: 0px 2px 0px #000;
+border-radius: 3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+
+}
+
+form button:hover{
+	background: #3a3a3a;
+}
+form button:active{
+	background: -o-linear-gradient(top, #3c3c3c 0%, #2a2828 100%);
+
+
+}

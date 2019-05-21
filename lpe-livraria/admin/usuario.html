@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usuario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="usuario.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <div id="titulo">
+        	<h2 >Cadastro de Usuario</h2>
+        </div>
+     
+      <div id="geral"> 
+        	<form>
+       		<div id="input-grupo">
+       			<label for="name">Nome</label>
+       			<input type="text" id="name" placeholder="Introduza o seu Nome ">
+       		</div>
+       		<div id="input-grupo">
+       		    <label for="input-grupo">Apelido</label><br>
+       		    <input type="text" id="apelido" placeholder="Introduza o seu Apelido">
+       		</div>
+
+       		<div id="input-grupo">
+       			<label for="username">Username</label>
+       			<input type="text" id="username" placeholder="Username">
+       		</div>
+
+       		<div id="input-grupo">
+       			<label for="senha">Senha</label>
+       			<input type="text" id="senha" placeholder="senha">
+       		</div>
+
+
+       		<div id="previlegio">
+	        	<label for="tipo_funcionario">Previlegio</label><br>
+	            <select name="tipo">
+                <option value="selecione">Selecione</option>
+	            <option value="administrador">Administrador(a)</option>
+	        	 <option value="funcionario">Funcionario(a)</option>
+	            </select>
+	        </div>
+
+	         
+	   <div id="estado">
+            <label for="estado-f">Estado</label><br>
+              <select name="estado">
+                <option value="selecione">Selecione</option>
+              <option value="activo">Activo(a)</option>
+             <option value="desactivo">Desactivo(a)</option>
+              </select>
+          </div>
+
+      <div id="input-grupo">
+            <label for="date_nascimento">Data de Nascimento</label><br>
+            <input type="date" id="date_nascimento">
+               
+           </div>
+
+    
+    <button class="btn" type="submit" name="gravar" >Gravar</button>
+    <button class="btn" type="submit" name="actualizar" style="background: #556B2F;" >Actualizar</button>
+
+       		
+
+
+             
+			</form>
+	        
+       		</body>
+</html>

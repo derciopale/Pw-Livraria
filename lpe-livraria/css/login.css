@@ -1,0 +1,307 @@
+body
+     {
+     background-color:white;
+     }
+
+header
+     {
+     background-image: url(back.png);
+     position:relative;
+     width:1205px;
+     height:100px;
+     left:20px;
+     top: 0px;
+     }             
+.banner img {
+     left:20px;
+     top: 0px;
+    position:absolute;
+    width:190px;
+    height:100px; 
+}
+
+.login{
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-family: Source Sans Pro, arial, sans-serif;
+      padding: 11px 10px;
+      text-transform: uppercase;
+      position: absolute;
+      width: auto;
+      left:850px;
+      top:20px; 
+    }
+.registro{
+      color:white;
+      text-align: center;
+      text-decoration: none;
+      font-family: Source Sans Pro, arial, sans-serif;
+      display: inline-block;
+      font-size: 16px;
+      padding: 11px 10px;
+      text-transform: uppercase;
+      position: absolute;
+      width: auto;
+      left:960px;
+      top:20px; 
+    }
+.carrinho img{
+     width:30px;
+     height:30px;
+     position: absolute;
+     left:1150px;
+     top:20px;  
+      }
+
+#searchform {
+     position:absolute; 
+     left:850px;
+     top:68px; 
+} 
+
+nav
+     {
+     background-color:#ffffff;
+     color:#ffffff;
+     position:relative;
+     width:1205px;
+     height:30px;
+     left:20px;
+     top:10px;
+     }
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #20B2AA;
+}
+
+section
+     {
+     background-color:white;
+     
+     position:relative;
+     width:1205px;
+     height:500px;
+     left:20px;
+     top:10px;
+      }
+.propagandas {
+      width:960px;
+      height:170px;
+      position: relative;
+      left:120px;
+      top:0px;
+      background-image: url(propagandas/n1.png);
+      background-size: 100% 100%;
+      animation: propagandas 10s infinite;
+      animation-direction: alternate; 
+}
+@keyframes propagandas {
+      0%,30%{
+            background-image: url(propagandas/n1.png);
+            opacity: 1;      
+      }
+      31%, 34%{
+            opacity: 0.1;
+      }
+      35%,65%{
+            background-image: url(propagandas/n2.png);
+            opacity: 1;
+      }
+      66%, 69%{
+            opacity: 0.1;
+      }
+      70%,100%{
+            opacity: 1;
+            background-image: url(propagandas/n3.png);
+      }
+      
+
+}
+
+article{
+           
+      font-family: arial;
+      width:750px;
+      height:50%;
+      position: relative;
+      left:20px;
+      top:10px;
+      
+}
+.formLivro{
+      background-color:white;     
+      font-family: arial;
+      width:700px;
+      height:80%;
+      position: relative;
+      left:8%;
+      top:0%;
+     text-align: right;
+      font-size:  1.5em;
+
+}
+.detalhes{text-align: center;}
+.cadastreLivro{
+  font-size:  2em;
+  font-family: arial;
+  text-align: center;
+}
+input[type=textf]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+   
+    border:1px solid #000000;
+    width: 40%;
+    height: 31px
+
+}
+
+
+.boxCadUser{
+      background-color:white;     
+      font-family: arial;
+      width:750px;
+      height:50%;
+      position: relative;
+      left:5%;
+      top:10px;
+      text-align: right;
+}
+.boxCadLogin{
+      background-color:white;     
+      font-family: arial;
+      width:750px;
+      height:50%;
+      position: relative;
+      left:0%;
+      top:10px;
+      text-align: right;
+}
+.descricao{
+    width:160px;
+    height:350px;
+    margin: 0px 20px;
+    position: relative;
+    background-size: black;
+}
+
+.titulo { 
+      font-size: 20px; 
+      line-height: 1.2em;
+}
+.preco { font-size: 18px; }
+.Autor { font-size: 18px; }
+.usuario{font-size: 18px}
+
+
+.LivrosMaisVendidos{
+      position: relative;
+      left:20px;
+      top:0px;
+}
+
+.DadosUsuario{
+  background-color: #7B68EE;
+  position: absolute;
+  top:75px;
+  left: 300px;
+  color: white;
+  width: 350px;
+  text-align: left;
+  padding: 10px;
+}
+.dateInserce{
+  color: gray;
+}
+.icone{
+  width: 40px;
+  height: 40px;
+}
+.imageVenda{
+ width: 250px;
+  height: 300px;
+}
+.colunas{
+      width:720px;
+      height:300px;
+      position: relative;
+      left:20px;
+      top:0px;
+
+}
+.doacao img{
+      border:#000000 1px;
+     –moz-border-radius: 10px; /* FF1+ */
+     -webkit-border-radius: 10px; /* Saf3+, Chrome */
+     
+      width:340px;
+      height:250px;
+      position: absolute;
+      left: 800px;
+      top:200px;
+      
+}
+
+footer
+     {
+     text-align: center;
+     background-color:#ffffff;
+     position:absolute;
+     width:1205px;
+     height:30px;
+     left:30px;
+     top:1000px;
+     
+     }
+
+#menuInferior ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+
+}
+#menuInferior ul li { display: inline; }
+#menuInferior ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menuInferior ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #20B2AA;
+}
+]

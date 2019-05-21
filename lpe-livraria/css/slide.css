@@ -1,0 +1,48 @@
+/**Definiremos as configurações do Container do slide **/
+#sliders{
+	/*Remove o bullet*/
+	list-style: none;  
+	/* Define que position:relative porque os 
+	 * elementos filhos usarão absolute
+	 */
+	position: relative; 
+	/*Define a largura*/
+	width: 800px;
+	/*Define uma altura*/
+	height:300px;
+	/*Centralizar na horizontal*/
+	margin:0 auto;
+	/*Oculta os elementos que ultrapassarem 
+	* as dimensões definidas
+	*/
+
+	
+	overflow: hidden;
+}
+/*Configuremos os itens do slide*/
+#sliders li{
+	/*Definimos como posição absoluta, seguindo o elemento pai*/
+	position: absolute;
+	/*Define que ficará encostado no topo*/
+	top:0;
+	/*Define que ficará enconstado do lado esquerdo*/
+	left:0;
+	/*Coloca a opacidade zero, pra ocultar*/
+	opacity: 0;
+	/*Define ordenação relacionados os elementos*/
+	z-index: 0;
+	/*Cria uma transição da opacidade com 1 segundo*/
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+/* Agora defiremos uma classe 
+ * que mostrar o item atual
+ */
+#sliders li.slider-active{
+	/*Ordena que ficará a frente dos itens*/
+	z-index: 1;
+	/*Mostra o slide atual*/
+	opacity: 1;
+}
